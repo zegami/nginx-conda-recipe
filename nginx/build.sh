@@ -1,4 +1,5 @@
 #!/bin/bash
+sed -i "s/#user  nobody;/daemon off;/g" conf/nginx.conf
 
 MACHINE="$(uname 2>/dev/null)"
 
