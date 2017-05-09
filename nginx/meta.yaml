@@ -1,16 +1,16 @@
 package:
     name: nginx
-    version: 1.11.4
+    version: 1.12.0
 
 source:
-    fn: nginx-1.11.4.tar.gz
-    url: https://nginx.org/download/nginx-1.11.4.tar.gz
+    fn: nginx-1.12.0.tar.gz
+    url: https://nginx.org/download/nginx-1.12.0.tar.gz
 
     patches:
        - configure.patch
 
 build:
-    number: 6
+    number: 0
     no_link: etc/*
     detect_binary_files_with_prefix: true
 
